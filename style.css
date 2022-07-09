@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+body {
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+h1 {
+  font-size: 48px;
+  margin-bottom: 0;
+}
+h1 span {
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+}
+p {
+  font-size: 20px;
+}
+input {
+  width: 200px;
+  padding: 15px;
+  border-radius: 50px;
+  border-color: hsl(223, 100%, 88%);
+  border-width: 1px;
+  margin: 25px;
+}
+button {
+  border-style: none;
+  background-color: hsl(223, 87%, 63%);
+  padding: 15px;
+  width: 175px;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+button:hover {
+  background-color: hsl(223, 100%, 75%);
+}
+i {
+  color: hsl(223, 87%, 63%);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px rgb(0 0 0/ 0.2);
+}
+i:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+}
+.error {
+  border-color: red;
+}
+.success {
+  color: hsl(223, 100%, 75%);
+}
+.msg {
+  opacity: 0;
+  font-size: 12px;
+  color: red;
+  position: relative;
+}
+.illustration {
+  width: 50%;
+}
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 500px) {
+  input {
+    width: 80%;
+    margin: 10px auto;
+  }
+  button {
+    width: 90%;
+  }
+}
